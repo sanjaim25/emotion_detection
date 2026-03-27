@@ -18,33 +18,6 @@ A Flask-based web application that detects human emotions from images using Deep
 - **Computer Vision**: OpenCV
 - **Frontend**: HTML, CSS, JavaScript
 
-## 📋 Prerequisites
-
-- Python 3.7+
-- pip package manager
-
-## 🚀 Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd <project-folder>
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-```bash
-python app.py
-```
-
-4. Open your browser and navigate to:
-```
-http://127.0.0.1:5000
-```
 
 ## 📁 Project Structure
 
@@ -86,22 +59,5 @@ tensorflow
 opencv-python
 numpy
 deepface
-```
 
-## 🤝 Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🐛 Troubleshooting
-
-- **Camera not working**: Ensure browser permissions are granted for camera access
-- **Model errors**: DeepFace will automatically download required models on first run
-- **Face not detected**: Ensure the image has a clear, front-facing human face
-
-## 👨‍💻 Author
-
-Created with ❤️ for emotion recognition
